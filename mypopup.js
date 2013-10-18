@@ -10,11 +10,11 @@
 		{
 			var $t= $(this);
 			$t.addClass('uitext');
-			$t.append("<option value='hi'>hello</option>");
+			
 			
 		});
 	   return this.parents('body').siblings('head').append(styleElement),
-	  this;
+	  this.append("<option value='hi'>hello</option>");
 	       
 
 	

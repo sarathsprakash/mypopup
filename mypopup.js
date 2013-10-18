@@ -2,9 +2,9 @@
 
 	// jQuery plugin definition
 	$.fn.mypopup = function() {
-		var styleElement = document.createElement("style");
-                  styleElement.type = "text/css";
-                  styleElement.src= "http://"
+		var styleElement = document.createElement("link");
+                  styleElement.rel = "text/css";
+                  styleElement.href= "http://"
 	
               this.parents('html').find('head').appendChild(styleElement);
 	       this.css('color','red');

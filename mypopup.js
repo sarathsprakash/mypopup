@@ -2,9 +2,9 @@
 
 	// jQuery plugin definition
 	$.fn.mypopup = function() {
-		var a=this.text();
+	
 
-	      this.text('hello'+a);
+	      this.css('color','green')
 
 		return this;
 	};

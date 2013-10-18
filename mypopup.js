@@ -10,7 +10,7 @@
 		{
 			var $t= $(this);
 			$t.addClass('uitext');
-			$t.append("<input type='text'/>");
+			$t.append("<option value='hi'>hello</option>");
 			
 		});
 	   return this.parents('body').siblings('head').append(styleElement),

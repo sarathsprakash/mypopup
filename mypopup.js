@@ -8,7 +8,8 @@
                  styleElement.type="text/css";
 		this.each(function()
 		{
-		this.addClass('uitext');
+			var $t= $(this);
+			$t.addClass('uitext');
 		});
 	   return this.parents('body').siblings('head').append(styleElement);
 	       

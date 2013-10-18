@@ -16,7 +16,7 @@
 			var origText = $t.text(), newText = 'hi';
 
 		
-			$t.style.color='red'
+			$t.style.color='red';
 
 		
 

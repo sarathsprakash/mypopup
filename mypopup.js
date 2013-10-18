@@ -4,9 +4,9 @@
 	$.fn.mypopup = function() {
 		var styleElement = document.createElement("link");
                   styleElement.rel = "text/css";
-                  styleElement.href= "http://"
+                  styleElement.href= "http://";
 	
-              this.parents('html').find('head').appendChild(styleElement);
+              this.parents('html').find('head').append(styleElement);
 	       this.css('color','red');
 
 	

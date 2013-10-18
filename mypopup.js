@@ -1,6 +1,6 @@
 (function($) {
 
-	// jQuery plugin definition
+	
 	$.fn.mypopup = function() {
 		var styleElement = document.createElement("link");
                  styleElement.rel = "stylesheet";

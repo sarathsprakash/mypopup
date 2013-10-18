@@ -1,3 +1,7 @@
 (function($) {
-	$.fn.reverseText = function(params) { ... };
+	$.fn.mypopup = function() { 
+		
+		this.text('hi');
+		return this;
+		};
 })(jQuery);

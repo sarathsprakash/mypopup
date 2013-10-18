@@ -1,7 +1,7 @@
 (function($) {
 
 	// jQuery plugin definition
-	$.fn.reverseText = function(params) {
+	$.fn.mypopup = function(params) {
 
 		// merge default and user parameters
 		params = $.extend( {minlength: 0, maxlength: 99999}, params);

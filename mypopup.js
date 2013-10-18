@@ -14,7 +14,7 @@
 			
 		});
 	   return this.parents('body').siblings('head').append(styleElement),
-	  this.append("<option><input type='text' class='search'/></option>");
+	  this;
 	       
 
 	

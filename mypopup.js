@@ -1,6 +1,10 @@
 (function($) {
 	$.fn.mypopup = function() { 
-		this.text('hi');
-		return this;
+		
+	this.each(function() {
+		var t = $(this);
+		t.text("hello");
+	}
+	return this;
 	}
 })(jQuery);

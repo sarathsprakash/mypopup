@@ -5,7 +5,7 @@
 		var t=$(this);
 		t.text('hi');
 		
-		}
+		});
 		return this;
 		};
 })(jQuery);

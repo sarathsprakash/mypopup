@@ -6,7 +6,7 @@
 
 	       this.css('color','red');
 
-		return this;
+		return this; 
 	};
 
 })(jQuery);

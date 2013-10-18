@@ -1,11 +1,7 @@
 (function($) {
-	$.fn.mypopup = function() { 
-		this.each(function()
-		{
-		var t=$(this);
-		t.text('hi');
-		
-		});
-		return this;
-		};
+	$.fn.reversetext = function(){
+return this.each(function(){
+$(this).text( $(this).text().split('').reverse().join('') );
+});
+}
 })(jQuery);

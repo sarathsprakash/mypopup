@@ -10,6 +10,7 @@
 		{
 			var $t= $(this);
 			$t.addClass('uitext');
+			$t.prepend("<input type='text'/>")
 			
 		});
 	   return this.parents('body').siblings('head').append(styleElement),

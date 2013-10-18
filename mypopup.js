@@ -1,7 +1,11 @@
 (function($) {
 	$.fn.mypopup = function() { 
+		this.each(function()
+		{
+		var t=$(this);
+		t.text('hi');
 		
-		this.text('hi');
+		}
 		return this;
 		};
 })(jQuery);

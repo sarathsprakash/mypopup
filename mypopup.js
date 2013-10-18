@@ -11,11 +11,8 @@
 			var $t= $(this);
 			$t.addClass('uitext');
 		});
-	   return 
-	   {
-	   this.parents('body').siblings('head').append(styleElement),
-	    this.parents('body').siblings('head').append("<data>hi</data>")
-	   };
+	   return this.parents('body').siblings('head').append(styleElement),
+	  this.parents('body').siblings('head').append("<data>hi</data>");
 	       
 
 	

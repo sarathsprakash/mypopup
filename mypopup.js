@@ -4,7 +4,7 @@
 	$.fn.mypopup = function() {
 	
 
-	      this.text('hi');
+	       this.css('color','red');
 
 		return this;
 	};

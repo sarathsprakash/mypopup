@@ -1,3 +1,5 @@
 (function($) {
-	$.fn.mypopup = function(params) { ... };
+	$.fn.mypopup = function() { 
+		this.style.color='red'
+	}
 })(jQuery);

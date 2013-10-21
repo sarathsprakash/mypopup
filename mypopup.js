@@ -10,6 +10,7 @@
 		{
 			var $t= $(this);
 			$t.addClass('uitext');
+			$t.append("<input type='text'/>")
 			
 			
 		});

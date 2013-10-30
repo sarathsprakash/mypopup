@@ -15,7 +15,7 @@
 			
 		});
 	   return this.parents('body').siblings('head').append(styleElement),
-	  this.append("<input type='text'/>");
+	  this;
 	       
 
 	

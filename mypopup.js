@@ -9,7 +9,7 @@
 		this.each(function()
 		{
 			var $t= $(this);
-			$t.addClass('uitext');
+			$t.addClass('ui-selectmenu');
 			
 			
 			

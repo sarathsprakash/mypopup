@@ -17,3 +17,6 @@
     appearance:none;
     cursor:pointer;
 }
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    .uiselect {padding-right:18px}
+}
